@@ -40,5 +40,5 @@ Linux
 
 Question9
 ==============
- 思路 就是实现一个K叉树               
+ 思路 Group类保存k叉树的根节点, 并提供add\get方法. Node类是节点类, 使用list来保存子节点, 并指向父节点. add方法即在相应的Node对象的list中添加元素. get即返回相应节点的list              
 
